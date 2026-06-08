@@ -15,7 +15,7 @@ export function CompetitorTrendChart() {
       <CardContent>
         <ChartContainer
           config={{
-            you: { label: "RevPilot", color: "var(--chart-1)" },
+            you: { label: "Mon Hôtel", color: "var(--chart-1)" },
             market: { label: "Comp-set Avg", color: "var(--chart-3)" },
           }}
           className="h-[280px] w-full"

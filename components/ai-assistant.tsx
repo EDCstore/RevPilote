@@ -16,7 +16,7 @@ export function AiAssistant() {
   const [messages, setMessages] = useState<Msg[]>([
     {
       role: "ai",
-      text: "Hi Directeur — I'm your RevPilot AI analyst. Ask me anything about your revenue, demand, pricing or competitors.",
+      text: "Hi Mon Nom — I'm your RevPilot AI analyst. Ask me anything about your revenue, demand, pricing or competitors.",
     },
   ])
   const [input, setInput] = useState("")
