@@ -3,7 +3,7 @@
 export type Trend = "up" | "down" | "flat"
 
 export const property = {
-  name: "Mon Établissement",
+  name: "RevPilot",
   location: "San Francisco, CA",
   rooms: 248,
   type: "Luxury Collection",
@@ -321,12 +321,12 @@ export const chatSuggestions = [
 ]
 
 export const hotels = [
-  { id: 1, name: "Mon Établissement", location: "San Francisco, CA", rooms: 248, occupancy: 77.2, revenue: 3_812_440, status: "active" as const, adr: 412 },
-  { id: 2, name: "Mon Établissement", location: "Seattle, WA", rooms: 186, occupancy: 71.5, revenue: 2_104_900, status: "active" as const, adr: 348 },
-  { id: 3, name: "Mon Établissement", location: "Aspen, CO", rooms: 92, occupancy: 88.1, revenue: 2_890_300, status: "active" as const, adr: 689 },
-  { id: 4, name: "Mon Établissement", location: "New York, NY", rooms: 312, occupancy: 82.4, revenue: 5_640_100, status: "active" as const, adr: 521 },
-  { id: 5, name: "Mon Établissement", location: "Los Angeles, CA", rooms: 204, occupancy: 69.8, revenue: 2_330_700, status: "active" as const, adr: 389 },
-  { id: 6, name: "Mon Établissement", location: "Miami, FL", rooms: 158, occupancy: 0, revenue: 0, status: "onboarding" as const, adr: 0 },
+  { id: 1, name: "RevPilot", location: "San Francisco, CA", rooms: 248, occupancy: 77.2, revenue: 3_812_440, status: "active" as const, adr: 412 },
+  { id: 2, name: "RevPilot", location: "Seattle, WA", rooms: 186, occupancy: 71.5, revenue: 2_104_900, status: "active" as const, adr: 348 },
+  { id: 3, name: "RevPilot", location: "Aspen, CO", rooms: 92, occupancy: 88.1, revenue: 2_890_300, status: "active" as const, adr: 689 },
+  { id: 4, name: "RevPilot", location: "New York, NY", rooms: 312, occupancy: 82.4, revenue: 5_640_100, status: "active" as const, adr: 521 },
+  { id: 5, name: "RevPilot", location: "Los Angeles, CA", rooms: 204, occupancy: 69.8, revenue: 2_330_700, status: "active" as const, adr: 389 },
+  { id: 6, name: "RevPilot", location: "Miami, FL", rooms: 158, occupancy: 0, revenue: 0, status: "onboarding" as const, adr: 0 },
 ]
 
 export const reservations = [

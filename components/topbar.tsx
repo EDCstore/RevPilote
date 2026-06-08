@@ -27,7 +27,7 @@ export function Topbar() {
 
       <button className="hidden items-center gap-2 rounded-lg border border-border bg-background px-3 py-1.5 text-sm font-medium transition-colors hover:bg-secondary sm:flex">
         <span className="flex size-6 items-center justify-center rounded-md bg-primary/10 text-[11px] font-bold text-primary">
-          MG
+          RP
         </span>
         <span className="max-w-[160px] truncate">{property.name}</span>
         <ChevronDown className="size-4 text-muted-foreground" />
@@ -52,7 +52,7 @@ export function Topbar() {
           <span className="sr-only">Notifications</span>
         </Button>
         <div className="flex size-9 items-center justify-center rounded-full bg-sidebar text-xs font-semibold text-white">
-          AK
+          D
         </div>
       </div>
     </header>
